@@ -1,0 +1,29 @@
+<configure>
+	<!-- Android相关参数配置 -->
+    <android>
+        <deviceID></deviceID><!-- 测试设备的serial number，可通过adb devices去查看到 -->
+        <appName></appName><!-- 测试的APK名称，放在Monkey的根目录 -->
+        <action></action><!-- android manifest文件里面可查到 -->
+        <catogory></catogory><!-- android manifest文件里面可查到  -->
+        <packageName></packageName><!-- android manifest文件里面可查到  -->
+        <activity></activity><!-- android manifest文件里面可查到  -->
+        <resolution></resolution><!-- 测试设备的分辨率 -->
+        <ticketCoordinate></ticketCoordinate><!-- 门票在首页的坐标 -->
+        <guidePages></guidePages><!-- 引导页的页数 -->
+    </android>
+    
+    <!-- 测试策略设置 -->
+    <Scenario>
+    	<section></section><!-- 测试的模块 -->
+        <frequency></frequency><!-- 点击频率，单位：ms，根据设置的值为间隔时间去点击 -->
+        <duration></duration><!-- 设置总共执行时间，单位：h，类型：double -->
+    </Scenario>
+    
+    <!-- 性能测试配置 -->
+    <!-- 如果要抓取那个性能数据则配置为true -->
+    <perfermace>
+       	<dataFrequency></dataFrequency><!-- 抓取性能数据的频率，单位：s，即每配置的秒数抓取一次数据 -->
+    	<cpu></cpu>
+    	<memory></memory>
+    </perfermace>
+</configure>
