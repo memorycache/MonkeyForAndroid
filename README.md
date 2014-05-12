@@ -26,6 +26,6 @@ User Guide
    按照conf.xml文件里面的注释配置好所有参数
 2. 把应用APK包放进Monkey根目录
 3. 抓取的数据和绘制的折线图均输出在results目录里面
-   b. cpu.jpg（CPU折线图）
-   c. mem.jpg（内存折线图）
-   d. *.csv文件（CPU和内存数据）
+   a. cpu.jpg（CPU折线图）
+   b. mem.jpg（内存折线图）
+   c. *.csv文件（CPU和内存数据）
