@@ -19,6 +19,7 @@ User Guide
 1. 安装手机驱动。
 2. 安装jdk 1.6 或以上版本，tools目录下有jdk安装文件，并配置环境变量。
 3. 配置adb环境，把Monkey目录tools下面的adb.exe文件配置到环境变量。
+
 ##二．Monkey运行步骤：
 1. 在conf.xml文件里面配置monkey运行参数
    按照conf.xml文件里面的注释配置好所有参数
