@@ -25,9 +25,7 @@ User Guide
 1. 在conf.xml文件里面配置monkey运行参数
    按照conf.xml文件里面的注释配置好所有参数
 2. 把应用APK包放进Monkey根目录
-3. 执行Monkey.bat文件
-4. 搜集结果
-a. log.txt文件（Monkey 运行输出日志）
-b. cpu.jpg（CPU折线图）
-c. mem.jpg（内存折线图）
-d. *.csv文件（CPU和内存数据）
+3. 抓取的数据和绘制的折线图均输出在results目录里面
+   b. cpu.jpg（CPU折线图）
+   c. mem.jpg（内存折线图）
+   d. *.csv文件（CPU和内存数据）
